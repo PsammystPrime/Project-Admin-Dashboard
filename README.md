@@ -1,2 +1,2 @@
 # Project-Admin-Dashboard
-A project on creating a dashboard using CSS Grid
+This is a Project solely devoted to use of grids in css as opposed to use of flexbox
