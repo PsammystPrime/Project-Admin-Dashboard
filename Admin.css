@@ -12,10 +12,18 @@
    grid-column: 2/4;
    grid-row: 1/2;
    display: grid;
-   grid-template-columns: repeat(2,1fr);
+   padding-left: 20px;
+   /*grid-template-columns: repeat(2,1fr);*/
 }
-.first{
+.top{
    background: red;
+   display: flex;
+   justify-content: space-between;
+}
+.bottom{
+   background: violet;
+   display: flex;
+   justify-content: space-between;
 }
 
 .dashboard{
