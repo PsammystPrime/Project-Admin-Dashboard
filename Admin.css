@@ -39,9 +39,12 @@ ul{
 }
 button{
    border-radius: 15px;
-   background-color: skyblue;
+   background-color: rgb(64, 148, 216);
    padding: 3px 15px 3px 15px;
    color: white;
+}
+button:hover{
+   background-color: aquamarine;
 }
 .bottom-left{
    display: flex;
@@ -69,6 +72,9 @@ ul{
    flex-direction: column;
    gap: 30px;
    font-size: medium;
+}
+li:hover{
+   background-color: aquamarine;
 }
 input{
    border-radius: 20px;
