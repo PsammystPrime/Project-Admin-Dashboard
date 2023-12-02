@@ -113,27 +113,17 @@ ul{
 }
 .point>p{
    width: 400px;
+   font-size: small;
    }
 .trending{
    background-color: blanchedalmond;
-   border-radius: 20px;
    margin-right: 30px;
+   display: flex;
+   flex-direction: column;
 
-   
 }
 .trenders{
-   background-color: aqua;
-
-   
-   
-}
-.trenders>div>p{
-   text-align: centesr;
-}
-#one{
-   background-color: greenyellow;
-   
-}
-.point>hr{
- color: red;
+      display: flex;
+     align-items: center;
+     gap: 10px;
 }
