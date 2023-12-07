@@ -15,24 +15,29 @@ ul{
 }
 .top{
    background: rgb(202, 195, 195);
-   display: flex;
+   display: grid;
+   grid-auto-flow: column;
    justify-content: space-between;
    align-items: center;
 }
 .right{
-      display: flex;
+      display: grid;
+      grid-auto-flow: column;
       align-items: center;
       gap: 20px;
       padding-right: 20px;
    }
 .bottom{
    background: rgb(202, 195, 195);
-   display: flex;
+   display: grid;
+   grid-auto-flow: column;
    justify-content: space-between;
    align-items: center;
+  
 }
 .buttons{
-   display: flex;
+   display: grid;
+   grid-auto-flow: column;
    gap: 20px;
    padding-right: 20px;
    border-radius: 20px;
@@ -47,30 +52,31 @@ button:hover{
    background-color: aquamarine;
 }
 .bottom-left{
-   display: flex;
+   display: grid;
+   grid-auto-flow: column; 
    align-items: center;
    gap: 20px;
+  
 }
 .dashboard{
    background: rgb(64, 148, 216);
    grid-row: 1/3;
    grid-column: 1/2;
-   display: flex;
-   flex-direction: column;
    padding: 0px 20px 20px 20px;
 }
 .main{
-   display: flex;
-   align-items: center;
+   display:grid ;
+   grid-auto-flow: column;
+   align-items: center; 
+   
 }
 .link1{
-margin-bottom: 50px;
-
+   margin-top: 60px;
+margin-bottom: 100px;
 }
 ul{
-   display: flex;
-   flex-direction: column;
-   gap: 30px;
+   display: grid;
+   gap: 40px;
    font-size: medium;
 }
 li:hover{
@@ -127,12 +133,14 @@ input{
    background-color: rgb(202, 195, 195);
    margin-right: 30px;
    border-radius: 20px;
-   display: flex;
-   flex-direction: column;
 
+  
 }
 .trenders{
-      display: flex;
-     align-items: center;
-     gap: 10px;
-}
+      display: grid;
+      grid-auto-flow: column;
+      align-items: center;
+      justify-content: start;
+      gap: 10px;
+    
+ }
