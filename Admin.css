@@ -5,6 +5,7 @@
 } 
 ul{
    list-style: none;
+   color: aliceblue;
 }
 .header{
    background: rgb(202, 195, 195);
@@ -146,4 +147,14 @@ input{
  }
 img{
    height: 20px;
+}
+h1{
+   color: rgb(25, 119, 201);
+   font-family: 'Times New Roman', Times, serif;
+}
+.pointHeader{
+   color: #ed553b ;
+}
+p{
+   color: #20639B;
 }
